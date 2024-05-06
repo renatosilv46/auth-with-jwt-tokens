@@ -12,6 +12,6 @@ public class UserController {
 
     @GetMapping()
     public ResponseEntity<String> getUser(){
-        return ResponseEntity.ok("Sucesso!");
+        return ResponseEntity.ok("Sucesso !");
     }
 }
